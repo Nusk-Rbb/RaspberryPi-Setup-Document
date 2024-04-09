@@ -145,7 +145,7 @@ TeraTermなどのターミナルソフトウェアで接続する場合は「SSH
 Raspberry PiにmicroSDカードを取り付け、ACアダプタを接続して起動します。
 （マウス、キーボード、ディスプレイを使用する場合は最初に以下のように接続してください）
 
-<details>
+<details open>
 
 <summary>Raspberry Pi 4 / 5</summary>
 
@@ -154,7 +154,7 @@ Raspberry PiにmicroSDカードを取り付け、ACアダプタを接続して�
 </details>
 
 
-<details>
+<details open>
 
 <summary>Raspberry Pi 3</summary>
 
@@ -163,7 +163,7 @@ Raspberry PiにmicroSDカードを取り付け、ACアダプタを接続して�
 </details>
 
 
-<details>
+<details open>
 
 <summary>Raspberry Pi Zero W</summary>
 
