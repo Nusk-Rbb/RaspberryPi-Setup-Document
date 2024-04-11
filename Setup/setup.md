@@ -302,4 +302,4 @@ Raspberry Piがシャットダウンを開始するので終了するまで待�
 - https://www.ingenious.jp/articles/howto/raspberry-pi-howto/raspberry-pi-basic-setup/#toc21
 - https://www.indoorcorgielec.com/resources/raspberry-pi/raspberry-pi-setup/
 
-# 5. Linuxコマンド入門編へ
+# 5. [Linuxコマンド入門編へ](/GetStart/getstart.md)
