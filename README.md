@@ -14,7 +14,7 @@ Raspberry PiとLinuxを初めて触る方向けに、ハードウェアのセッ
 
 ## このドキュメントのPDFが欲しい方へ
 
-* https://github.com/Nusk-Rbb/RaspberryPi-Setup-Document/releases/download/v1.0/RaspberryPi-Setup-Documents.zip
+* https://github.com/Nusk-Rbb/RaspberryPi-Setup-Document/releases/latest
 
 これをクリックするとダンロードできます。
 
