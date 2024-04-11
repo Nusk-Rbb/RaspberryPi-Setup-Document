@@ -16,6 +16,6 @@ Raspberry PiとLinuxを初めて触る方向けに、ハードウェアのセッ
 
 * https://github.com/Nusk-Rbb/RaspberryPi-Setup-Document/releases/latest
 
-これをクリックするとダンロードできます。
+これをクリックして`RaspberryPi-Setup-Documents.zip`をダンロードしてください
 
 # [セットアップ編へ](/Setup/setup.md)
