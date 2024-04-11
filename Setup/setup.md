@@ -1,7 +1,8 @@
-# Raspberry Piのセットアップ
+# 1. Raspberry Piのセットアップ
 
-## 目次
+## 1.1. 目次
 
+<<<<<<< HEAD
 - [Raspberry Piのセットアップ](#raspberry-piのセットアップ)
   - [目次](#目次)
   - [準備するもの](#準備するもの)
@@ -17,9 +18,27 @@
       - [シャットダウンと電源OFF](#シャットダウンと電源off)
   - [最後に](#最後に)
   - [参考資料](#参考資料)
+=======
+- [1. Raspberry Piのセットアップ](#1-raspberry-piのセットアップ)
+  - [1.1. 目次](#11-目次)
+  - [1.2. 準備するもの](#12-準備するもの)
+  - [1.3. microSDカードの作成](#13-microsdカードの作成)
+  - [1.4. Raspberry Pi Imagerのインストール](#14-raspberry-pi-imagerのインストール)
+  - [1.5. microSDカードへの書き込み](#15-microsdカードへの書き込み)
+- [2. Raspberry Piの起動と初期設定](#2-raspberry-piの起動と初期設定)
+  - [2.1. 起動](#21-起動)
+    - [2.1.1. ターミナルソフトウェアを使用する場合のRaspberry Piとの接続方法](#211-ターミナルソフトウェアを使用する場合のraspberry-piとの接続方法)
+      - [2.1.1.1. IPアドレスの確認方法](#2111-ipアドレスの確認方法)
+      - [2.1.1.2. ターミナルソフトウェアによる接続](#2112-ターミナルソフトウェアによる接続)
+    - [2.1.2. 初期設定](#212-初期設定)
+      - [2.1.2.1. シャットダウンと電源OFF](#2121-シャットダウンと電源off)
+- [3. 最後に](#3-最後に)
+- [4. 参考資料](#4-参考資料)
+- [5. Linuxコマンド入門編へ](#5-linuxコマンド入門編へ)
+>>>>>>> f61f9b7 (change: change content)
 
 
-## 準備するもの
+## 1.2. 準備するもの
 
 - 必須
     - 本体(Raspberry Pi)
@@ -31,11 +50,11 @@
     - PC(ディスプレイ、キーボード、マウスを接続する場合は不要)
 
 
-## microSDカードの作成
+## 1.3. microSDカードの作成
 
 Raspberry Piで使用するmicroSDカードを作成します。
 
-### Raspberry Pi Imagerのインストール
+## 1.4. Raspberry Pi Imagerのインストール
 
 はじめに、microSDカードにRaspberry Pi OSを書き込むために使用する「Raspberry Pi Imager」ソフトウェアのダウンロードを行います。「Raspberry Pi Imager」ソフトウェアは、[公式ページ](https://www.raspberrypi.com/software/)からダウンロードすることができます。
 
@@ -66,7 +85,7 @@ https://www.raspberrypi.com/software/
 >
 >![](./Images/raspberry-pi-imager-install-warning-02.png)
 
-### microSDカードへの書き込み
+## 1.5. microSDカードへの書き込み
 
 SDカードリーダーライターに準備したmicroSDカードを挿入します。
 
@@ -138,9 +157,9 @@ TeraTermなどのターミナルソフトウェアで接続する場合は「SSH
 
 18\. 以上でmicroSDカードへの書き込みは終了です。microSDカードを取り外します。
 
-## Raspberry Piの起動と初期設定
+# 2. Raspberry Piの起動と初期設定
 
-### 起動
+## 2.1. 起動
 
 Raspberry PiにmicroSDカードを取り付け、ACアダプタを接続して起動します。
 （マウス、キーボード、ディスプレイを使用する場合は最初に以下のように接続してください）
@@ -179,12 +198,12 @@ Raspberry PiにmicroSDカードを取り付け、ACアダプタを接続して�
 
 4\. ACアダプタを電源に接続し、Raspberry Piを起動します。（※Raspberry Piには、電源スイッチはありません。）
 
-### ターミナルソフトウェアを使用する場合のRaspberry Piとの接続方法
+### 2.1.1. ターミナルソフトウェアを使用する場合のRaspberry Piとの接続方法
 
 **※マウス、キーボード、ディスプレイを使う場合の方は読み飛ばしてください**
 > [初期設定](#初期設定)
 
-#### IPアドレスの確認方法
+#### 2.1.1.1. IPアドレスの確認方法
 
 コマンドプロンプトで```arp -a```を入力して、PCから見えるIPアドレスを一覧に表示します。
 
@@ -198,7 +217,7 @@ C:\Users\xxx>arp -a
 
 大きい数字から順にSSH(Teraterm)でログインを試してみてください。
 
-#### ターミナルソフトウェアによる接続
+#### 2.1.1.2. ターミナルソフトウェアによる接続
 
 Raspberry PiのIPアドレスを確認したあと、TeraTermなどのターミナルソフトウェアを使用して、Raspberry Piに接続します。ここでは、TeraTermを使用します。
 
@@ -218,7 +237,7 @@ TeraTermを実行すると、以下の画面が表示されますので、「ホ
 
 これでターミナルソフトウェアによる接続の解説は終わりです。
 
-### 初期設定
+### 2.1.2. 初期設定
 
 うまく起動してデスクトップ画面が表示されたら、初期設定を行う「Welcome to the Raspberry Pi Desktop」ダイアログが表示されますので、「Next」をクリックします。
 
@@ -260,7 +279,7 @@ Setup Completeのダイアログが表示されたら完了です。「Restart�
 
 再起動後にデスクトップ画面が表示されれば、初回起動時の初期設定は終了です。
 
-#### シャットダウンと電源OFF
+#### 2.1.2.1. シャットダウンと電源OFF
 
 最後に、シャットダウンと電源OFFする方法を説明します。
 
@@ -276,9 +295,11 @@ Raspberry Piがシャットダウンを開始するので終了するまで待�
 
 電源は自動で切れないので、シャットダウンの終了を確認した後に電源ケーブルを抜きます。
 
-## 最後に 
+# 3. 最後に 
 ハードウェアのセットアップとOSの初期設定方法の解説は以上です。これでRaspberry Piを使う準備が整いました。Raspberry Piはソフトや拡張基板を追加することで様々な応用が可能です
 
-## 参考資料
+# 4. 参考資料
 - https://www.ingenious.jp/articles/howto/raspberry-pi-howto/raspberry-pi-basic-setup/#toc21
 - https://www.indoorcorgielec.com/resources/raspberry-pi/raspberry-pi-setup/
+
+# 5. Linuxコマンド入門編へ
